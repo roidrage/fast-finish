@@ -1,0 +1,6 @@
+env:
+  global:
+    - SLEEP=30
+    - SLEEP=25
+    - SLEEP=35
+script: sleep $SLEEP && /bin/false
