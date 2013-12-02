@@ -3,4 +3,6 @@ env:
     - SLEEP=30
     - SLEEP=25
     - SLEEP=35
+matrix:
+  fast_finish: true
 script: sleep $SLEEP && /bin/false
