@@ -4,4 +4,4 @@ env:
   - SLEEP=35
 matrix:
   fast_finish: true
-script: sleep $SLEEP && /bin/false
+script: sleep $SLEEP && /bin/true
