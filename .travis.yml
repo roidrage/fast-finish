@@ -1,5 +1,6 @@
 script:
   - uname -a
-  - lsb_release
+  - lsb_release -a
   - ./script.sh
   - env
+  - sh -v
