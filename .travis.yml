@@ -3,4 +3,4 @@ script:
   - lsb_release -a
   - ./script.sh
   - env
-  - sh -v
+  - ls -al /bin/sh
